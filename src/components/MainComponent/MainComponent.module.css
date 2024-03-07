@@ -24,7 +24,7 @@
 
 .mainWrapper {
   display: flex;
-
+  justify-content: center;
   gap: 100px;
   align-items: flex-end;
   width: 100%;
