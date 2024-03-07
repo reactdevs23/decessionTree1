@@ -5,8 +5,15 @@ import MainComponent from "./components/MainComponent/MainComponent";
 function App() {
   const [allData, setAllData] = useState({
     fontFamily: "'Inter', sans-serif",
+    headingFontFamily: "'Inter', sans-serif",
     mainBg: "#fff",
     arrowColor: "#000",
+    header: {
+      subHeading: "STRATEGY",
+      subHeadingColor: "#CA8504",
+      heading: "Decisions to take",
+      headingColor: "#000",
+    },
     step1: {
       label: "Start",
       color: "#000",

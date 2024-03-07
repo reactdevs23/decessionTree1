@@ -11,6 +11,7 @@ import LeftMiddle from "../../images/LeftMiddle";
 import RightMiddle from "../../images/RightMiddle";
 
 const MainComponent = ({
+  header,
   step1,
   step2,
   step3a,
@@ -28,9 +29,23 @@ const MainComponent = ({
 }) => {
   return (
     <div
-      className="min-h-screen flex items-center justify-center w-full py-20"
+      className="min-h-screen flex flex-col gap-20 items-center  w-full py-20"
       style={{ background: "var(--mainBg) " }}
     >
+      <div className={classes.headingContainer}>
+        <h3
+          className={classes.subHeading}
+          style={{ "--color": header.subHeadingColor }}
+        >
+          {header.subHeading}
+        </h3>
+        <h1
+          className={classes.heading}
+          style={{ "--color": header.headingColor }}
+        >
+          {header.heading}
+        </h1>
+      </div>
       <div className={classes.mainWrapper}>
         <div className={classes.wrapper}>
           <div
