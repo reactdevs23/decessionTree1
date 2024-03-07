@@ -165,10 +165,10 @@
 .allData {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 40px;
 }
 .infoContainer {
-  padding: 18px;
+  padding: 28px;
   border-radius: 10px;
   background: var(--bg);
   display: flex;
